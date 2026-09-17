@@ -42,6 +42,12 @@ button { cursor: pointer; }
 .btn.danger { color: var(--red); }
 .btn.ghost { border-color: transparent; background: transparent; color: var(--blue); padding: 4px 7px; min-height: auto; }
 .btn:disabled { opacity: .45; cursor: not-allowed; }
+.sort-cell { display: flex; align-items: center; gap: 8px; white-space: nowrap; }
+.sort-no { width: 24px; height: 24px; border-radius: 6px; background: #f1f4fa; color: #667085; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; }
+.sort-actions { display: inline-flex; gap: 3px; }
+.sort-btn { width: 25px; height: 25px; border: 1px solid #d7ddea; border-radius: 5px; background: #fff; color: var(--blue); line-height: 1; padding: 0; }
+.sort-btn:hover:not(:disabled) { background: #eef3ff; border-color: #aebdf0; }
+.sort-btn:disabled { color: #b8c0ce; background: #f7f8fa; cursor: not-allowed; }
 .table-wrap { overflow: auto; }
 table { width: 100%; border-collapse: collapse; min-width: 860px; }
 th { background: #f8f9fc; color: #596176; font-weight: 600; text-align: left; padding: 12px 14px; white-space: nowrap; }
